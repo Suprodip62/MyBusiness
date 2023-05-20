@@ -1,0 +1,60 @@
+Suprodip - harry123
+Supro - harry123
+S - harry
+
+
+
+session variable e balance set kora jabe na
+session variable e emon kichu set kora jabe na jeta change hoy
+
+inval() --> function converts string to int
+
+$sql1 = "SELECT * FROM `users` WHERE `users`.`username` = $username"; --> not correct because $username is not the primary key
+So sob user er sob info query chaliye db theke ante hobe then if statement er maddhome GET request e asha user filter korte hobe
+
+
+debit na hole condition else e handle korle hobe na else if diye == "Credit" ki na check korte hobe ta na hole choose option ta o credit hisebe calculate hoye jabe
+
+time is not updating. always showing 0000-00-00 00:00:00 in the output
+solution: ALTER TABLE users MODIFY created datetime  NULL DEFAULT '1970-01-02'
+solution 2: set DEFAULT datetime value current_timestamp() in phpmyadmin
+
+
+
+
+https://www.codewithharry.com/videos/php-mysql-login-system-in-one-video/
+
+https://www.codewithharry.com/videos/php-tutorials-in-hindi-32/
+
+https://stackoverflow.com/questions/31227844/typeerror-datatable-is-not-a-function
+
+https://stackoverflow.com/questions/8529656/how-do-i-convert-a-string-to-a-number-in-php
+
+https://stackoverflow.com/questions/35565128/mysql-incorrect-datetime-value-0000-00-00-000000
+
+https://getbootstrap.com/docs/4.0/utilities/text/
+
+
+don't host without index.php. because after hosting the site index.php will be the home page
+
+--> update the config file with new db name, db username & password
+db name: login (id20634811_login) --> host changes the actual name after creating
+db username: root (id20634811_root)
+db pass: $Harry123
+
+--> update POST & GET requests, remove login_cwh
+
+--> remove session_start(); from login.php if already exists in config.php
+
+--> name="" attribute thik ache ki na dekhte hobe
+
+--> INSERT INTO korar somoy kheyal rakhte hobe text er value '' er moddhe variable emon vabe deoya ache.
+
+--> Download a page as pdf 
+    1. install composer windows version from official website of composer
+    2. composer require mpdf/mpdf v8.1 --> run this in the project folder
+    3. how to send one variable from one php file to another --> by setting session variable(ex. $html).
+
+--> ekta session thakar pore onno session start kora jabe na cloud e. cloud e upload korar por session thaka obosthay abar session start hocche emon command comment korte hobe.
+
+pdf, description, two admin account can view everything and add debit/credit, two viewer account.
